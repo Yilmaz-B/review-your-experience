@@ -1,0 +1,85 @@
+/* Alles wat in het CSS bestand staat kon niet worden gemaakt met bootstrap/ kleuren die niet beschikbaar waren op bootstrap */
+
+/* Colorcode */
+/* 11111F blue */
+/* FFC72B yellow */
+
+body{
+    background-color: #11111F;
+    color: #FFC72B;
+}
+
+.navbar {
+    border: 2px solid #FFC72B;
+    border-style: none none solid none;
+    margin-bottom: 0;
+}
+
+.card-title:hover, .bread:hover, .nav-link:hover {
+    color: white;
+}
+
+.card, .card-title, .bread, .navbar-toggler, .bi {
+    background-color: #11111F;
+    color: #FFC72B;
+    border-color: #FFC72B;
+}
+
+.nav-link {
+    color: #FFC72B;
+    background-color: #11111F;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: #FFC72B;
+    background-color: #11111F;
+}
+
+.disabled {
+    background-color: gray !important;
+    color: #FFC72B;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input {
+    background-color:  #11111F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #11111F;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #11111F   ;
+    padding: 20px;
+}
+.translate{
+    background-color:#FFC72B;
+    border-radius: 10px;
+   margin-left: 50%;
+    width: 600px;
+  float: right;
+
+}
